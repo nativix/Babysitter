@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		457B12201BD82D4A003FC119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457B121F1BD82D4A003FC119 /* AppDelegate.swift */; };
+		457B12251BD82D4A003FC119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457B12231BD82D4A003FC119 /* Main.storyboard */; };
+		457B12271BD82D4A003FC119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 457B12261BD82D4A003FC119 /* Assets.xcassets */; };
+		457B122A1BD82D4A003FC119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 457B12281BD82D4A003FC119 /* LaunchScreen.storyboard */; };
+		457B12391BD83ED8003FC119 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457B12381BD83ED8003FC119 /* MapViewController.swift */; };
+		4583DCF81BE90DE300081ACB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCF71BE90DE300081ACB /* Colors.swift */; };
+		4583DCFA1BE91C5A00081ACB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCF91BE91C5A00081ACB /* TabBarController.swift */; };
+		4583DCFC1BE92DF900081ACB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCFB1BE92DF900081ACB /* User.swift */; };
+		4583DD001BEA4F3D00081ACB /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 4583DCFF1BEA4F3D00081ACB /* users.json */; };
+		4583DD041BEA5DC300081ACB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DD031BEA5DC300081ACB /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		457B121C1BD82D4A003FC119 /* Babysitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babysitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		457B121F1BD82D4A003FC119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		457B12241BD82D4A003FC119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		457B12261BD82D4A003FC119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		457B12291BD82D4A003FC119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		457B122B1BD82D4A003FC119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		457B12381BD83ED8003FC119 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4583DCF71BE90DE300081ACB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4583DCF91BE91C5A00081ACB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4583DCFB1BE92DF900081ACB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4583DCFF1BEA4F3D00081ACB /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		4583DD031BEA5DC300081ACB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		457B12191BD82D4A003FC119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		457B12131BD82D4A003FC119 = {
+			isa = PBXGroup;
+			children = (
+				457B121E1BD82D4A003FC119 /* Babysitter */,
+				457B121D1BD82D4A003FC119 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		457B121D1BD82D4A003FC119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				457B121C1BD82D4A003FC119 /* Babysitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		457B121E1BD82D4A003FC119 /* Babysitter */ = {
+			isa = PBXGroup;
+			children = (
+				457B12231BD82D4A003FC119 /* Main.storyboard */,
+				4583DCFB1BE92DF900081ACB /* User.swift */,
+				4583DD031BEA5DC300081ACB /* SwiftyJSON.swift */,
+				4583DCF91BE91C5A00081ACB /* TabBarController.swift */,
+				457B12381BD83ED8003FC119 /* MapViewController.swift */,
+				4583DCFF1BEA4F3D00081ACB /* users.json */,
+				457B12311BD82FBE003FC119 /* Supporting Files */,
+			);
+			path = Babysitter;
+			sourceTree = "<group>";
+		};
+		457B12311BD82FBE003FC119 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				457B121F1BD82D4A003FC119 /* AppDelegate.swift */,
+				4583DCF71BE90DE300081ACB /* Colors.swift */,
+				457B12261BD82D4A003FC119 /* Assets.xcassets */,
+				457B122B1BD82D4A003FC119 /* Info.plist */,
+				457B12281BD82D4A003FC119 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		457B121B1BD82D4A003FC119 /* Babysitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 457B122E1BD82D4A003FC119 /* Build configuration list for PBXNativeTarget "Babysitter" */;
+			buildPhases = (
+				457B12181BD82D4A003FC119 /* Sources */,
+				457B12191BD82D4A003FC119 /* Frameworks */,
+				457B121A1BD82D4A003FC119 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Babysitter;
+			productName = Babysitter;
+			productReference = 457B121C1BD82D4A003FC119 /* Babysitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		457B12141BD82D4A003FC119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Appstract Development";
+				TargetAttributes = {
+					457B121B1BD82D4A003FC119 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 576SQ5E2RX;
+					};
+				};
+			};
+			buildConfigurationList = 457B12171BD82D4A003FC119 /* Build configuration list for PBXProject "Babysitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 457B12131BD82D4A003FC119;
+			productRefGroup = 457B121D1BD82D4A003FC119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457B121B1BD82D4A003FC119 /* Babysitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		457B121A1BD82D4A003FC119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4583DD001BEA4F3D00081ACB /* users.json in Resources */,
+				457B122A1BD82D4A003FC119 /* LaunchScreen.storyboard in Resources */,
+				457B12271BD82D4A003FC119 /* Assets.xcassets in Resources */,
+				457B12251BD82D4A003FC119 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457B12181BD82D4A003FC119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457B12201BD82D4A003FC119 /* AppDelegate.swift in Sources */,
+				4583DCFA1BE91C5A00081ACB /* TabBarController.swift in Sources */,
+				4583DCFC1BE92DF900081ACB /* User.swift in Sources */,
+				4583DCF81BE90DE300081ACB /* Colors.swift in Sources */,
+				4583DD041BEA5DC300081ACB /* SwiftyJSON.swift in Sources */,
+				457B12391BD83ED8003FC119 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		457B12231BD82D4A003FC119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457B12241BD82D4A003FC119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		457B12281BD82D4A003FC119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				457B12291BD82D4A003FC119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		457B122C1BD82D4A003FC119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		457B122D1BD82D4A003FC119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		457B122F1BD82D4A003FC119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Babysitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanati.com.Babysitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		457B12301BD82D4A003FC119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Babysitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nanati.com.Babysitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		457B12171BD82D4A003FC119 /* Build configuration list for PBXProject "Babysitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457B122C1BD82D4A003FC119 /* Debug */,
+				457B122D1BD82D4A003FC119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		457B122E1BD82D4A003FC119 /* Build configuration list for PBXNativeTarget "Babysitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				457B122F1BD82D4A003FC119 /* Debug */,
+				457B12301BD82D4A003FC119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 457B12141BD82D4A003FC119 /* Project object */;
+}
