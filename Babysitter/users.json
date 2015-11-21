@@ -5,7 +5,8 @@
 	"latitude":"55.6561075",
 	"longitude":"12.6000000",
 	"aboutme":"Hi! I am Nati, I'm from Mexico and I like to eat cake",
-	"rating":"4.5"
+	"rating":"4.5",
+    "image":"images/1.jpg"
 },
 {
     "name":"Otra burra",
@@ -14,5 +15,6 @@
     "latitude":"55.6541075",
     "longitude":"12.5910091",
     "aboutme":"I like to eat cake",
-    "rating":"3.5"
+    "rating":"3.5",
+    "image":"images/2.jpg"
 }]

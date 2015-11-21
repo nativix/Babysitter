@@ -14,9 +14,10 @@
 		457B12391BD83ED8003FC119 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457B12381BD83ED8003FC119 /* MapViewController.swift */; };
 		4583DCF81BE90DE300081ACB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCF71BE90DE300081ACB /* Colors.swift */; };
 		4583DCFA1BE91C5A00081ACB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCF91BE91C5A00081ACB /* TabBarController.swift */; };
-		4583DCFC1BE92DF900081ACB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCFB1BE92DF900081ACB /* User.swift */; };
+		4583DCFC1BE92DF900081ACB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DCFB1BE92DF900081ACB /* Users.swift */; };
 		4583DD001BEA4F3D00081ACB /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 4583DCFF1BEA4F3D00081ACB /* users.json */; };
 		4583DD041BEA5DC300081ACB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583DD031BEA5DC300081ACB /* SwiftyJSON.swift */; };
+		45C10DFB1BF24CA3009747A4 /* MKUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C10DFA1BF24CA3009747A4 /* MKUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,10 @@
 		457B12381BD83ED8003FC119 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4583DCF71BE90DE300081ACB /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4583DCF91BE91C5A00081ACB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		4583DCFB1BE92DF900081ACB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4583DCFB1BE92DF900081ACB /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		4583DCFF1BEA4F3D00081ACB /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		4583DD031BEA5DC300081ACB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		45C10DFA1BF24CA3009747A4 /* MKUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKUsers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				457B12231BD82D4A003FC119 /* Main.storyboard */,
-				4583DCFB1BE92DF900081ACB /* User.swift */,
+				4583DCFB1BE92DF900081ACB /* Users.swift */,
+				45C10DFA1BF24CA3009747A4 /* MKUsers.swift */,
 				4583DD031BEA5DC300081ACB /* SwiftyJSON.swift */,
 				4583DCF91BE91C5A00081ACB /* TabBarController.swift */,
 				457B12381BD83ED8003FC119 /* MapViewController.swift */,
@@ -161,10 +164,11 @@
 			files = (
 				457B12201BD82D4A003FC119 /* AppDelegate.swift in Sources */,
 				4583DCFA1BE91C5A00081ACB /* TabBarController.swift in Sources */,
-				4583DCFC1BE92DF900081ACB /* User.swift in Sources */,
+				4583DCFC1BE92DF900081ACB /* Users.swift in Sources */,
 				4583DCF81BE90DE300081ACB /* Colors.swift in Sources */,
 				4583DD041BEA5DC300081ACB /* SwiftyJSON.swift in Sources */,
 				457B12391BD83ED8003FC119 /* MapViewController.swift in Sources */,
+				45C10DFB1BF24CA3009747A4 /* MKUsers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
